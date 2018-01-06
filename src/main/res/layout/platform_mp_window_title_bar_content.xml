@@ -10,13 +10,13 @@
         android:orientation="horizontal"
         >
         <ImageButton
+            android:id="@+id/plugin_back_two"
             android:layout_gravity="center_vertical"
-            android:id="@+id/plugin_back"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:background="@drawable/back"
+            android:background="@drawable/platform_mp_window_back_button"
             />
         <View
             android:layout_gravity="center_vertical"
@@ -35,10 +35,10 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/show_meassge_info"
+        android:id="@+id/show_meassge_info_two"
         android:layout_width="25dp"
         android:layout_height="25dp"
-        android:background="@drawable/phone_people"
+        android:background="@drawable/plugin_fen_xiang"
         android:layout_centerVertical="true"
         android:layout_alignParentRight="true"
         android:layout_marginRight="10dp"

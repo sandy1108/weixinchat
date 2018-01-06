@@ -96,10 +96,11 @@ public class MyWeChatView extends RelativeLayout implements View.OnClickListener
 
         //webview 初始化
         webview=rootView.findViewById(R.id.webview);
+
         show_meassge_info=(Button) rootView.findViewById(R.id.show_meassge_info);
         show_meassge_info_two=(Button)rootView.findViewById(R.id.show_meassge_info_two);
         plugin_back_two=(ImageButton) rootView.findViewById(R.id.plugin_back_two);
-        plugin_back=(ImageButton) rootView.findViewById(R.id.plugin_back);
+        plugin_back=(ImageButton) rootView.findViewById(R.id.platform_mp_window_button_back);
 
         webview.setWebViewClient(new WebViewClient(){
             @Override
@@ -140,7 +141,7 @@ public class MyWeChatView extends RelativeLayout implements View.OnClickListener
                 chatKeybordListerner.showMyMenuView();
                 break;
 
-            case R.id.plugin_back:
+            case R.id.platform_mp_window_button_back:
                 chatKeybordListerner.dissmissMainView();
                 break;
             case R.id.plugin_back_two: // 返回上级界面

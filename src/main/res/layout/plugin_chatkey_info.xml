@@ -7,7 +7,7 @@
         android:id="@+id/plugin_title"
         android:layout_height="50dip"
         android:layout_width="match_parent"
-        layout="@layout/plugin_title_bar"
+        layout="@layout/platform_mp_window_title_bar"
         />
     <WebView
         android:layout_below="@id/plugin_title"
