@@ -30,13 +30,13 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:layout_alignParentBottom="true"
-        layout="@layout/plugin_chatkeyboard_taking"
+        layout="@layout/platform_mp_window_chatkeyboard_bar"
         />
     <include
         android:layout_height="50dip"
         android:layout_width="match_parent"
         android:layout_alignParentBottom="true"
-        layout="@layout/plugin_chatkeyboard_content"
+        layout="@layout/platform_mp_window_menu_bar"
         />
 
 </RelativeLayout>

@@ -16,7 +16,7 @@
             android:layout_marginRight="10dp"
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:background="@drawable/platform_mp_window_back_button"
+            android:background="@drawable/platform_mp_window_button_back"
             />
         <View
             android:layout_gravity="center_vertical"
@@ -38,7 +38,7 @@
         android:id="@+id/show_meassge_info"
         android:layout_width="25dp"
         android:layout_height="25dp"
-        android:background="@drawable/phone_people"
+        android:background="@drawable/platform_mp_window_button_detail_info"
         android:layout_centerVertical="true"
         android:layout_alignParentRight="true"
         android:layout_marginRight="10dp"
